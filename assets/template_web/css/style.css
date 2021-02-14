@@ -1,0 +1,313 @@
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  background-color: #fff;
+  position: relative;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.nav-bar{
+  background-color: #F44336;
+  height: 70px;
+}
+.nav-bar2{
+  margin-top: -21px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-top: 120px;
+}
+/* Since positioning the image, we need to help out the caption */
+/*.carousel-caption {
+  z-index: 10;
+}*/
+
+/* Declare heights because of positioning of img element */
+/*.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  min-width: 100%;
+  height: 500px;
+}*/
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+.jarak{
+  padding-top: 30px;
+}
+
+/*section*/
+.pembuka{
+  height: 150%;
+  background-color: #eee;
+  padding-top: 70px;
+  padding-bottom: 70px; 
+}
+.pendaftaran{
+  height: 150%;
+  background-color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.getitem{
+  height: 150%;
+  background-color: #eee;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.countingdown{
+  background-color: #F44336;
+}
+.isi{
+  height: 150%;
+  background-color: #eee;
+  padding-top: 70px;
+  padding-bottom: 70px; 
+}
+.testi{
+  background-color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px; 
+}
+.sponsor{
+  background-color: #eee;
+  padding-top: 70px;
+  padding-bottom: 70px; 
+}
+.peta{
+  background-color: #eee;
+  padding-top: 70px;
+}
+.kontak{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-color: #F44336;
+}
+.footer{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-color: #D32F2F;
+}
+
+.parallax{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
+    /* The image used */
+    background-image: url("../images/parallax.png");
+
+    /* Set a specific height */
+    /*min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.select{
+    color: #455A64;
+}
+
+.select:hover{
+    color: #FFC107;
+    text-decoration: none;
+}
+
+.select2{
+    color: #fff;
+}
+
+.select2:hover{
+    color: #FFC107;
+    text-decoration: none;
+}
+
+
+
+.body1{
+    background: #2196F3;
+}
+.form-login{
+    margin-top: 13%;
+}
+.outter-form-login {
+    padding: 20px;
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 3px 3px 23px;
+}
+.logo-login {
+    position: absolute;
+    top: -50px;
+    border-radius: 50%;
+    left: 40%;
+}
+.inner-login .form-control {
+    background: #eee;
+}
+h3.title-login {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #455A64;
+    font-weight: bold;
+}
+ 
+.forget {
+    margin-top: 20px;
+    color: #2196F3;
+}
+.btn-custom-blue {
+    background: #1976D2;
+    color: #fff;
+}
+.btn-custom-blue:hover {
+    background: #FFC107;
+    color: #fff;
+}
+
+@font-face {
+         font-family: "backtoblackdemo";
+         src: url(../fonts/font.ttf);
+         }
+ 
+   .font {
+         font-family: "backtoblackdemo";
+         }
+
+.hr{
+  background-color: red;
+}
+
+.time{
+  font-size: 35px;
+  border-color: transparent;
+}
+
+.labeltime{
+  font-size: 12px;
+  font-weight: bold;
+  border-color: transparent;
+}
+
+.labelpeserta{
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: #455A64;
+}
+.pembagi{
+  color: #F44336;
+}
